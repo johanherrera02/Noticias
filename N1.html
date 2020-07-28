@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADN.com</title>
+    <style>
+        * {
+        padding: 0;
+        margin: 0;
+        }
+
+        p {
+        margin-bottom: 20px;
+        }
+        .input{
+            padding: 8px;
+            border-radius: 20px;
+            width: 80%;
+            float: left;
+        }
+        .header{
+            position: fixed;
+            background-color: white;
+            border-bottom: groove;
+        }
+        .fecha{
+            text-align: center;     
+        }
+        .body{
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            line-height: 26px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 10px;
+            padding-top: 10px;
+        }
+        .breadcrumb {
+        padding: 10px 16px;
+        list-style: none;
+        padding-top: 120px;
+        }
+        .breadcrumb li {
+        display: inline;
+        font-size: 18px;
+        padding-top: 120px;
+        }
+        .breadcrumb li+li:before {
+        padding: 8px;
+        color: black;
+        content: "/";
+        }
+        .breadcrumb li a {
+        color: #0275d8;
+        text-decoration: none;
+        }
+        .breadcrumb li a:hover {
+        color: #01447e;
+        text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <!--header-->
+    <table class="header" width="100%">
+        <tr>
+           <td  class="fecha" width="33%">
+                    <script>
+                   var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                   var f=new Date();
+                   document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                   </script>
+                   <br>
+                   <br>
+                   <a target="_blank" href="https://www.youtube.com/channel/UC5fI_3E1rW3jCp6rGr03hbg"><img width="30px" height="30px" src="img/yt.png" alt=""></a> 
+                   <a target="_blank" href="https://es-la.facebook.com/diarioadn/"><img width="30px" height="30px" src="img/fb.png" alt=""></a>
+                   <a target="_blank" href="https://www.instagram.com/adn_colombia/?hl=es-la"><img width="30px" height="30px" src="img/ins.jpg" alt=""></a> 
+                   <a target="_blank" href="https://twitter.com/adncolombia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img width="30px" height="30px" src="img/tw.png" alt=""></a>
+           </td>
+            <td width="35%">
+               <img width="270px" height="90px" src="img/logo.png" alt="imagen de logo">
+            </td>
+            <td width="31%">
+               <input class="input" type="text" placeholder="Que estas buscando">
+            </td>
+        </tr>
+    </table>
+     <!-- Fin header-->
+    <hr>
+    <!--migas de pan-->
+    <ul class="breadcrumb">
+        <li><a href="ADN.html">Inicio</a></li>
+        <li>Educacion</li>
+    </ul>
+      <!--fin de las migas de pan-->
+      <!--contenido-->
+    <table width="100%" class="body">
+        <tr>
+            <td width="30%">
+               <img width="500px" height="250px"src="img/5.jpeg" alt="">
+            </td>
+            <td width="70%">
+                <h2>Universidad colombiana, de las mejores escuelas de negocios del mundo.</h2>
+                <img height="80px" width="160px" src="img/save.png" alt=""> <br>
+                    <p> ADN- Viernes 15 de mayo del 2020 <br>
+                    Foto: Robinson Andres Cortes Galindo/ ADN</p>
+            </td>
+        </tr>
+    </table>
+    <p class="body">El reconocido medio británico Financial Times publicó recientemente su ránquin de las mejores universidades del mundo en Educación Ejecutiva, en el que figura una institución colombiana. <br><br>
+
+        Este listado es considerado como el indicador más relevante para las Escuelas de administración y de negocios en el mundo, respecto a sus programas de Educación Ejecutiva. <br>
+        La universidad nacional que aparece en el listado es Los Andes, que se posicionó en el puesto 39, convirtiéndose también con esto en la quinta mejor de Latinoamérica. Además, también resulta ser una mejoría de cinco puestos con respecto al año 2018. <br>
+        En cuanto a las mejores instituciones de la región, los primeros puestos son ocupados en este orden por la Fundação Dom Cabral de Brasil, el Instituto Panamericano de Alta Dirección de Empresas de la Universidad Panamericana de México (IPADE), el INCAE Business School de Costa Rica, la Facultad de Administración de la Universidad de los Andes y la Universidad Austral IAE de Argentina. <br>
+        Ante este reconocimiento, Veneta Andonova, decana de la Facultad de Administración de la Universidad de los Andes, señaló que este “es uno de los ejes de nuestra estrategia para crear impacto en las organizaciones y en el país. Nuestra oferta se adapta a los problemas reales y a las necesidades de las organizaciones con temas de pertinencia, a través de metodologías innovadoras que permiten que los directivos, ejecutivos y profesionales transformen las organizaciones donde se desenvuelven”. <br> <br>
+        
+        Por su parte, en los primeros lugares a nivel mundial se encuentran Iese Business School, de España; la HEC, de París, el IMD Business School, de Suiza; Duke Corporate Education, de Estados Unidos y el SDA Bocconi School of Management, de Italia. <br><br>
+        
+        El ranquin fue elaborado a partir de las calificaciones de cada uno de los estudiantes de estas escuelas de negocios. También se analizaron factores como la metodología de los cursos impartidos, así como el seguimiento de ellos en sus entornos laborales aplicando los conocimientos adquiridos. <br>
+        
+        </p>
+      <!--Fin contenido-->
+</body>
+</html>

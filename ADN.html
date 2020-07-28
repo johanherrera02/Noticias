@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>ADN</title>
+    <style>
+        * {
+        padding: 0;
+        margin: 0;
+        }
+        p {
+        margin-bottom: 20px;
+        }
+        .header{
+            position: fixed;
+            background-color: white;
+            border-bottom: groove;
+        }
+        .input{
+            padding: 8px;
+            border-radius: 20px;
+            width: 80%;
+            float: left;
+        }
+        .fecha{
+            text-align: center;
+        }
+        .tabla{
+            text-align: center;
+            color: blue;
+            padding-top: 10px;
+        }
+        .tablah{
+            color: black;
+        }
+        .tabla2{
+            text-align: center;      
+        }
+        .breadcrumb {
+        padding: 10px 16px;
+        list-style: none;
+        padding-top: 120px;
+        }
+        .breadcrumb li {
+        display: inline;
+        font-size: 18px;
+        }
+        .breadcrumb li+li:before {
+        padding: 8px;
+        color: black;
+        content: "/";
+        }
+        .breadcrumb li a {
+        color: #0275d8;
+        text-decoration: none;
+        }
+        .breadcrumb li a:hover {
+        color: #01447e;
+        text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- header-->
+ <table class="header" width="100%">
+     <tr>
+        <td class="fecha" width="25%">
+            <script>
+                var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                var f=new Date();
+                document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                </script>
+                <br>
+                <br>
+                <a target="_blank" href="https://www.youtube.com/channel/UC5fI_3E1rW3jCp6rGr03hbg"><img width="30px" height="30px" src="img/yt.png" alt=""></a> 
+                <a target="_blank" href="https://es-la.facebook.com/diarioadn/"><img width="30px" height="30px" src="img/fb.png" alt=""></a>
+                <a target="_blank" href="https://www.instagram.com/adn_colombia/?hl=es-la"><img width="30px" height="30px" src="img/ins.jpg" alt=""></a> 
+                <a target="_blank" href="https://twitter.com/adncolombia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img width="30px" height="30px" src="img/tw.png" alt=""></a>
+        </td>
+         <td width="35%">
+            <img width="270px" height="90px" src="img/logo.png" alt="imagen de logo">
+         </td>
+         <td class="" width="15%">
+            <a href="Suscripcion.html"><img width="80px" height="80px" src="img/sus.png" alt="imagen de suscripcion"></a>
+         </td>
+         <td width="25%">
+            <input class="input" type="text" placeholder="Que estas buscando">
+         </td>
+     </tr>
+ </table>
+    <!-- Fin header-->
+    <hr>
+    <!--migas de pan-->
+    <ul class="breadcrumb">
+        <li><a href="N1.html">Educacion</a></li>
+        <li><a href="N4.html">Redes</a></li>
+        <li><a href="N5.html">Investigacion</a></li>
+        <li><a href="N3.html">Salud</a></li>
+        <li><a href="N6.html">Actualidad</a></li>
+        <li><a href="N2.html">Movilidad</a></li>
+      </ul>
+      <!--Fin de las migas de pan-->
+    <!-- contenido-->
+    <div>
+        <table class="tabla" width="100%">
+            <tr>
+                <td width="33%">
+                    <img width="400px" height="200px" src="img/2.jpeg" alt="">
+                     <h2 class=" tablah">Movilidad</h2>
+                    <h3><u> <a href="N2.html"> 25 de mayo inicia cobro de multas vía cámaras salvavidas en Bogotá</a></u></h3>
+                    <br>
+                    <br>
+                    <img width="400px" height="200px" src="img/5.jpeg" alt="">
+                     <h2 class=" tablah">Educaion</h2>
+                     <a href="N1.html"><h3><u>Universidad colombiana, de las mejores escuelas de negocios del mundo. <br> y solo una UCI</u></h3></a>
+                </td>
+                <td width="33%">
+                    <img width="400px" height="200px" src="img/4.jpeg" alt="">
+                    <h2 class=" tablah">Redes</h2>
+                    <a href="N4.html"><h3><u>Polémico trino de Petro sobre la llegada y expansión <br> del coronavirus</u></h3></a>
+                    <br>
+                    <br>
+                    <img width="400px" height="200px" src="img/1.jpeg" alt="">
+                    <h2 class=" tablah">Salud</h2>
+                    <a href="N3.html"><h3><u>Conozca dónde y cómo puede hacerse la prueba del covid-19 en su ciudad</u></h3></a>
+                </td>
+                <td width="33%">
+                    <img width="400px" height="200px" src="img/6.jpeg" alt="">
+                    <h2 class=" tablah">Investigacion</h2>
+                    <a href="N5.html"><h3><u>A Vaupés el virus llegó desde Brasil; hay 11 contagios y solo una UCI</u></h3></a>
+                    <br>
+                    <br>
+                    <img width="400px" height="200px" src="img/3.jpeg" alt="">
+                    <h2 class=" tablah">Actualidad</h2></a>
+                    <a href="N6.html"><h3><u>Coronavirus: 21 muertes más en Colombia; contagios superan los 14 mil</u></h3></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!--  Fin contenido-->
+    <br><br>
+    <hr>
+    <!--footer-->
+    <table class="tabla2" width="100%">
+        <tr>
+            <td width="25%">
+                <img width="270px" height="90px" src="img/logo.png" alt="logo">
+            </td>
+            <td width="25%">
+                <h3>Contactenos:</h3>
+            </td>
+            <td width="25%">
+                <div> 
+                    <table>   
+                        <tr>   
+                            <td>           
+                                <img width="40px" height="35px" src="img/tel.png" alt="logo">
+                            </td>   
+                            <td>
+                                <p>Fijo:01800012345 <br><br> PBX: 57(1)12345</p>
+                            </td> 
+                       </tr> 
+                    </table>                  
+                </div> 
+            </td>
+            <td width="25%">
+                <div> 
+                    <table>   
+                        <tr>   
+                            <td>           
+                                <img width="40px" height="35px" src="img/mail.png" alt="logo">                              
+                            </td>   
+                            <td>
+                                <p>ADN@gmail.com</p>
+                            </td> 
+                       </tr> 
+                       <tr>   
+                        <td>           
+                            <img width="40px" height="35px" src="img/gps.png" alt="logo">                              
+                        </td>   
+                        <td>
+                            <p>Cll 63 #3-24</p>
+                        </td> 
+                   </tr> 
+                    </table>                  
+                </div> 
+            </td>
+        </tr>
+    </table>
+      <!-- Fin footer-->
+</body>
+</html>
